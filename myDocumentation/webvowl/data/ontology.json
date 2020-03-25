@@ -1,0 +1,898 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.MyAIEthicsCanvasOntology/MAI", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#EthicsBlockEntry",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EthicsBlockEntry"
+    },
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BlockEntry"
+    },
+    "subClasses" : [ "6", "7", "4" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#Tag",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tag"
+    },
+    "id" : "8"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#BusinessModelBlockEntry",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BusinessModelBlockEntry"
+    },
+    "id" : "6",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#BusinessModelCanvas",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BusinessModelCanvas"
+    },
+    "id" : "18",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#Comment",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Comment"
+    },
+    "id" : "10"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#AIEthicsCanvas",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AIEthicsCanvas"
+    },
+    "id" : "46",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "53",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#AIEthicsBlockEntry",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AIEthicsBlockEntry"
+    },
+    "id" : "7",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#Project",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Project"
+    },
+    "id" : "15"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#EthicsCanvas",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EthicsCanvas"
+    },
+    "id" : "65",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#Canvas",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Canvas"
+    },
+    "subClasses" : [ "46", "18", "65" ],
+    "id" : "1"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#CanvasTypeIs",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "CanvasTypeIs"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#CommentIsResolved",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "CommentIsResolved"
+    },
+    "domain" : "10",
+    "attributes" : [ "datatype" ],
+    "id" : "9"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "12"
+  }, {
+    "range" : "5",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#contains",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "contains"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#hasTotalTaggedWith",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasTotalTaggedWith"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#EntryHasTitle",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "EntryHasTitle"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#EntryCreatedAt",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "EntryCreatedAt"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#taggedWith",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "taggedWith"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#CanvasHasTitle",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "CanvasHasTitle"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#CanvasUniqueId",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "CanvasUniqueId"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#EntryTextIs",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "EntryTextIs"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#CanvasModifiedAt",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "CanvasModifiedAt"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#ProjectPublicOrNot",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "ProjectPublicOrNot"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#isCommentForEntry",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "isCommentForEntry"
+    },
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#TagUniqueId",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "TagUniqueId"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasUsers",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "ProjectHasUsers"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#CommentHasText",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "CommentHasText"
+    },
+    "domain" : "10",
+    "attributes" : [ "datatype" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#EntryCategoryIs",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "EntryCategoryIs"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#CommentHasUser",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "CommentHasUser"
+    },
+    "domain" : "10",
+    "attributes" : [ "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasOwner",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "ProjectHasOwner"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#CanvasCreatedAt",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "CanvasCreatedAt"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#EntryModifiedAt",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "EntryModifiedAt"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#CommentTimestamp",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "CommentTimestamp"
+    },
+    "domain" : "10",
+    "attributes" : [ "datatype" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#CommentUniqueId",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "CommentUniqueId"
+    },
+    "domain" : "10",
+    "attributes" : [ "datatype" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#ProjectUniqueId",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "ProjectUniqueId"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#hasEntry",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasEntry"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#TagCreatedAt",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "TagCreatedAt"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasTitle",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "ProjectHasTitle"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#TagLabelIs",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "TagLabelIs"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#TagModifiedAt",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "TagModifiedAt"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#EntryUniqueId",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "EntryUniqueId"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#ProjectModifiedAt",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "ProjectModifiedAt"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#ProjectCreatedAt",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "ProjectCreatedAt"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype" ],
+    "id" : "73"
+  }, {
+    "range" : "1",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasAdmins",
+    "baseIri" : "http://www.MyAIEthicsCanvasOntology/MAI",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "ProjectHasAdmins"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype" ],
+    "id" : "75"
+  }, {
+    "range" : "1",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "76"
+  }, {
+    "range" : "1",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "77"
+  } ]
+}
